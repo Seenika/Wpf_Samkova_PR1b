@@ -24,5 +24,10 @@ namespace Wpf_Samkova_PR1b
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Привет, группа ИСиП!")
+        }
     }
 }
