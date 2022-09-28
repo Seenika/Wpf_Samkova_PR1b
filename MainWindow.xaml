@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <!--<Button Content="" FontSize="22" Width="200" Height="80" Click="Button_Click"/>-->
+        <Button Content="Нажать" FontSize="22" Width="200" Height="80" Click="Button_Click" Margin="300,258,300,96"/>
         <Button x:Name="Btn1" Height="50" Width="200" Content="Обычная кнопка">
             <Button.Background>
                 <LinearGradientBrush>
@@ -19,7 +19,7 @@
             </Button.Background>
         </Button>
         <Canvas>
-            <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
+            <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Задание 3" Click="Win1_Click"></Button>
         </Canvas>
     </Grid>
 </Window>

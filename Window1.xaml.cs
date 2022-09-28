@@ -23,5 +23,6 @@ namespace Wpf_Samkova_PR1b
         {
             InitializeComponent();
         }
+
     }
 }

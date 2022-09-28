@@ -33,6 +33,7 @@ namespace Wpf_Samkova_PR1b
         {
             Window1 window1 = new Window1();
             window1.Show();
+            this.Hide();
         }
     }
 }
