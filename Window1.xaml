@@ -15,5 +15,7 @@
                 <GradientStop Color="#FF677EDC" Offset="0.685"/>
             </LinearGradientBrush>
         </Grid.Background>
+        <Button x:Name="Win2" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Задание 4.1" Click="Win2_Click" Margin="27,23,673,361"/>
+        
     </Grid>
 </Window>
