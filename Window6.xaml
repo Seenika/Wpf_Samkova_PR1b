@@ -24,5 +24,9 @@
         <Label Grid.Row="2" Grid.Column="0" Content="Email"/>
         <TextBox Grid.Row="2" Grid.Column="1" Width="200"/>
         <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content="Зарегистрироваться"/>
+
+        <Canvas>
+            <Button x:Name="Win1_6" Canvas.Left="355" Canvas.Top="247" Height="50" Width="100" Content="Вернуться назад" Click="Win1_6_Click"/>
+        </Canvas>
     </Grid>
 </Window>
