@@ -15,5 +15,8 @@
             <TextBox Width="200"/>
             <Button Content="Зарегистрироваться"/>
         </StackPanel>
+        <Canvas>
+            <Button x:Name="Win1_4" Canvas.Left="350" Canvas.Top="167" Height="50" Width="100" Content="Вернуться назад" Click="Win1_4_Click"/>
+        </Canvas>
     </Grid>
 </Window>
