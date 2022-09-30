@@ -30,5 +30,33 @@ namespace Wpf_Samkova_PR1b
             window2.Show();
             this.Hide();
         }
+
+        private void Win3_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 window3 = new Window3();
+            window3.Show();
+            this.Close();
+        }
+
+        private void Win4_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 window4 = new Window4();
+            window4.Show();
+            this.Close();
+        }
+
+        private void Win5_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 window5 = new Window5();
+            window5.Show();
+            this.Close();
+        }
+
+        private void Win6_Click(object sender, RoutedEventArgs e)
+        {
+            Window6 window6 = new Window6();
+            window6.Show();
+            this.Close();
+        }
     }
 }

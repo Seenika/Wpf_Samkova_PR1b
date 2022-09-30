@@ -15,7 +15,12 @@
                 <GradientStop Color="#FF677EDC" Offset="0.685"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="Win2" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Задание 4.1" Click="Win2_Click" Margin="27,23,673,361"/>
-        
+        <Canvas>
+            <Button x:Name="Win2" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Задание 4.1" Click="Win2_Click" Margin="27,23,673,361"/>
+            <Button x:Name="Win3" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Задание 4.2" Click="Win3_Click" Margin="27,101,673,283"/>
+            <Button x:Name="Win4" Canvas.Left="37" Canvas.Top="187" Height="50" Width="100" Content="Задание 4.3" Click="Win4_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button x:Name="Win5" Canvas.Left="37" Canvas.Top="259" Height="50" Width="100" Content="Задание 4.4" Click="Win5_Click"/>
+            <Button x:Name="Win6" Canvas.Left="37" Canvas.Top="332" Height="50" Width="100" Content="адание 4.5" Click="Win6_Click"/>
+        </Canvas>
     </Grid>
 </Window>
