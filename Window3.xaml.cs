@@ -23,6 +23,7 @@ namespace Wpf_Samkova_PR1b
         {
             InitializeComponent();
         }
+
         private void Win1_3_Click(object sender, RoutedEventArgs e)
         {
             Window1 window1 = new Window1();
