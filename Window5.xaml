@@ -15,5 +15,8 @@
             <TextBox DockPanel.Dock="Right" Width="200"/>
             <Button DockPanel.Dock="Bottom" Content="Зарегистрироваться"/>
         </DockPanel>
+        <Canvas>
+            <Button x:Name="Win1_5" Canvas.Left="350" Canvas.Top="167" Height="50" Width="100" Content="Вернуться назад" Click="Win1_5_Click"/>
+        </Canvas>
     </Grid>
 </Window>
